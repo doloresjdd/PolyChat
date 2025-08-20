@@ -97,8 +97,6 @@ const upload = multer({
   }
 });
 
-// === File Upload Endpoints ===
-
 // File upload endpoint
 app.post('/api/upload', upload.single('file'), async (req, res) => {
   try {

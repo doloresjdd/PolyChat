@@ -2,7 +2,7 @@ from pydantic import BaseModel
 from typing import List, Optional
 
 class ChatRequest(BaseModel):
-    provider: str  # "openai", "ollama", "claude"
+    provider: str  
     prompt: str
     history: Optional[List[str]] = []
 

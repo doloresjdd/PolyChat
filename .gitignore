@@ -41,3 +41,22 @@ uploads/
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+
+# Virtual environments
+venv/
+env/
+ENV/
+
+# Movie files (从你的项目看有很多 .mov 文件)
+*.mov
+demo*.mov
+
+# Conda
+.conda/
