@@ -196,14 +196,6 @@ PolyChat/
 
 ---
 
-## Interview Notes
-
-> "The prior is based on general benchmarks, but the system personalizes recommendations per user through real-time feedback. A user who prefers Claude for coding will see the system shift towards Claude over time."
-
-> "Thompson Sampling inherently balances exploration and exploitation, continuously comparing all providers to identify optimal routing without requiring explicit A/B testing infrastructure."
-
----
-
 ## License
 
 MIT License
