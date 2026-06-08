@@ -1,0 +1,20 @@
+{
+  "latency": {
+    "avg_ms": 76,
+    "p50_ms": 37,
+    "p95_ms": 118
+  },
+  "convergence": {
+    "convergence_point": 10,
+    "final_provider": "claude",
+    "final_confidence": 0.773
+  },
+  "distribution": {
+    "distribution": {
+      "openai": 15,
+      "claude": 3,
+      "gemini": 2
+    },
+    "total": 20
+  }
+}

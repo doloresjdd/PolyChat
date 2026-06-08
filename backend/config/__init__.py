@@ -1,0 +1,26 @@
+# backend/config/__init__.py
+"""
+配置模块
+"""
+from .settings import (
+    DATABASE_PATH,
+    DATA_COLLECTION_DIR,
+    MODEL_PATH,
+    BANDIT_CONFIG_PATH,
+    RECOMMENDATION_CONFIG,
+    PROVIDER_COSTS,
+    COLLECTOR_CONFIG,
+    TRAINING_CONFIG
+)
+
+__all__ = [
+    'DATABASE_PATH',
+    'DATA_COLLECTION_DIR',
+    'MODEL_PATH',
+    'BANDIT_CONFIG_PATH',
+    'RECOMMENDATION_CONFIG',
+    'PROVIDER_COSTS',
+    'COLLECTOR_CONFIG',
+    'TRAINING_CONFIG'
+]
+

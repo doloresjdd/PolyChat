@@ -23,7 +23,7 @@ const FileAttachment = require('./models/FileAttachment');
 
 // Google Gemini AI client initialization
 const genAI = new GoogleGenerativeAI(process.env.GEMINI_API_KEY);
-const geminiModel = genAI.getGenerativeModel({ model: 'gemini-1.5-flash-latest' });
+const geminiModel = genAI.getGenerativeModel({ model: 'gemini-2.5-flash' });
 
 // OpenAI client initialization
 const openai = new OpenAI({
@@ -558,7 +558,7 @@ app.post('/api/chat/:provider', async (req, res) => {
         apiMessages.push({ role: 'user', content: messageContent });
         
         const response = await anthropic.messages.create({
-          model: "claude-3-haiku-20240307",
+          model: "claude-haiku-4-5-20251001",
           max_tokens: 1024,
           messages: apiMessages,
         });
