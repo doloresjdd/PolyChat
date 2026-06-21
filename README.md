@@ -149,7 +149,7 @@ npm start
 
 Open [http://localhost:3000](http://localhost:3000)
 
-Login: `demo@example.com` / `wordpass`
+Login: any email / `wordpass`
 
 ---
 
@@ -199,3 +199,4 @@ PolyChat/
 ## License
 
 MIT License
+# test
